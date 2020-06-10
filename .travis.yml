@@ -1,7 +1,2 @@
 language: csharp
-dist: trusty
-mono: none
-dotnet: 3.1.0
-script:
-- dotnet restore
-- dotnet build
+solution: TestSonarCloud.sln
